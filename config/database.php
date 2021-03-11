@@ -90,6 +90,11 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
+        'mongodb'=>[
+            'driver'=>'mongodb',
+            'dsn'=>'mongodb+srv://holivin21:holivin12andres@realmcluster.gbhjr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+            'database' => 'Crud'
+        ]
 
     ],
 
